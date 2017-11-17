@@ -16,7 +16,6 @@ def CompareMDR_PCM(mdr, pcm):
 	temp_file.write(items2[1]+"\n")
   temp_file.close()
   temp_file = open("output/temp_file.txt", "r")
-  temp = "1.3.6.1.2.1.2.2.1.3"
   regex = re.compile(r'OctetString (\d{1,3}(-\d{1,3})+)')
   searchOids = []
   outTempOids = []
